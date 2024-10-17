@@ -12,7 +12,7 @@ const Services = () => {
         {/* Data Engineering Card */}
         <div className="service-card">
           <div className="icon-container">
-            <img src="/d11.png" alt="Data Engineering" className="service-icon" />
+            <img src="/d11.PNG" alt="Data Engineering" className="service-icon" />
           </div>
           <h3>Data and Analytics Engineer</h3>
           <p>Streamlining and enhancing data from various sources while constructing scalable data pipelines, guaranteeing data integrity for valuable insights.</p>

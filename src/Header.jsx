@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className="header-container">
         <div className='image-container'>
-            <img src="/nnnnnn.png" alt="logo" className="profile-image" />
+            <img src="/nnnnnn.PNG" alt="logo" className="profile-image" />
         </div>
         <div className='about-me'>
             <h1>Jimoh <br/>Saheed Tunde</h1>
