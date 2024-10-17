@@ -1,6 +1,6 @@
 /* General styling for the navbar */
-body{
-    background-color: white ;
+body {
+    background-color: white;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -12,32 +12,32 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-  }
-  
-  .navbar-logo img {
+}
+
+.navbar-logo img {
     width: 100px; /* Adjust size of the logo */
-  }
-  
-  .navbar-links {
+}
+
+.navbar-links {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-  }
-  
-  .nav-item {
+}
+
+.nav-item {
     margin: 0 15px;
-  }
-  
-  .nav-link {
+}
+
+.nav-link {
     color: black;
     text-decoration: none;
     position: relative;
     font-size: 18px;
     padding-bottom: 5px;
-  }
-  
-  .nav-link::after {
+}
+
+.nav-link::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -47,91 +47,86 @@ body{
     background-color: #000;
     transition: width 0.3s ease;
     transform-origin: bottom right;
-  }
-  
-  .nav-link:hover::after {
+}
+
+.nav-link:hover::after {
     width: 100%;
     transform-origin: bottom left;
-  }
-  
-  .navbar-actions {
+}
+
+.navbar-actions {
     display: flex;
     align-items: center;
-  }
-  
-  .contact-btn {
+}
+
+.contact-btn, .resume-btn {
     padding: 20px 40px;
     background-color: #000;
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
     margin-right: 10px;
-  }
+}
 
-  .rusume-btn{
-    padding: 20px 40px;
-    background-color: #000;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-  .theme-toggle {
+.contact-btn:hover, .resume-btn:hover {
+    background-color: white; /* Change background to white on hover */
+    color: black; /* Change text color to black on hover */
+}
+
+.theme-toggle {
     margin-left: 15px;
-  }
-  
+}
 
-  /* Media query for mobile devices */
+/* Media query for mobile devices */
 @media (max-width: 600px) {
-
     body {
         width: 100%;
-
         overflow-x: hidden;
         margin: 0;
         padding: 0;
-      }
+    }
+
     .navbar {
-      flex-direction: row;
-      align-items: flex-start;
-      padding: 10px;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px;
     }
-  
+
     .navbar-logo img {
-      width: 80px; /* Smaller logo on mobile */
+        width: 80px; /* Smaller logo on mobile */
     }
-  
+
     .navbar-links {
-      flex-direction: column;
-      align-items: flex-start;
-      width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
     }
-  
+
     .nav-item {
-      margin: 10px 0; /* Add vertical spacing between nav items */
+        margin: 10px 0; /* Add vertical spacing between nav items */
     }
-  
+
     .nav-link {
-      font-size: 16px; /* Slightly smaller font size on mobile */
-      padding-bottom: 2px;
+        font-size: 16px; /* Slightly smaller font size on mobile */
+        padding-bottom: 2px;
     }
-  
-    .contact-btn, .rusume-btn {
-      padding: 15px 30px;
-      font-size: 14px; /* Smaller buttons for mobile */
-      margin-bottom: 10px;
-      width: 100px; /* Full-width buttons on mobile */
+
+    .contact-btn, .resume-btn {
+        padding: 15px 30px;
+        font-size: 14px; /* Smaller buttons for mobile */
+        margin-bottom: 10px;
+        width: 100px; /* Full-width buttons on mobile */
     }
-  
+
     .navbar-actions {
-      flex-direction: column;
-      align-items: flex-start;
-      width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
     }
-  
+
     .theme-toggle {
-      margin-left: 0; /* Align theme toggle to the left on mobile */
+        margin-left: 0; /* Align theme toggle to the left on mobile */
     }
-  }
+}

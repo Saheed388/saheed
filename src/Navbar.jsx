@@ -26,7 +26,7 @@ const Navbar = () => {
         </a>
 
         <a href="https://docs.google.com/document/d/1g989L1qg49kSsD9UH1L8r_4L4JEtlbmo/edit#heading=h.gjdgxs" target="_blank" rel="noopener noreferrer">
-         <button className="rusume-btn">Resume </button>
+         <button className="resume-btn">Resume </button>
          </a>
       </div>
     </nav>
