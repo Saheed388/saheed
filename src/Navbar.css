@@ -1,0 +1,137 @@
+/* General styling for the navbar */
+body{
+    background-color: white ;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .navbar-logo img {
+    width: 100px; /* Adjust size of the logo */
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+  }
+  
+  .nav-link {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: width 0.3s ease;
+    transform-origin: bottom right;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+    transform-origin: bottom left;
+  }
+  
+  .navbar-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-btn {
+    padding: 20px 40px;
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+
+  .rusume-btn{
+    padding: 20px 40px;
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .theme-toggle {
+    margin-left: 15px;
+  }
+  
+
+  /* Media query for mobile devices */
+@media (max-width: 600px) {
+
+    body {
+        width: 100%;
+
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+      }
+    .navbar {
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    .navbar-logo img {
+      width: 80px; /* Smaller logo on mobile */
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+    }
+  
+    .nav-item {
+      margin: 10px 0; /* Add vertical spacing between nav items */
+    }
+  
+    .nav-link {
+      font-size: 16px; /* Slightly smaller font size on mobile */
+      padding-bottom: 2px;
+    }
+  
+    .contact-btn, .rusume-btn {
+      padding: 15px 30px;
+      font-size: 14px; /* Smaller buttons for mobile */
+      margin-bottom: 10px;
+      width: 100px; /* Full-width buttons on mobile */
+    }
+  
+    .navbar-actions {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+    }
+  
+    .theme-toggle {
+      margin-left: 0; /* Align theme toggle to the left on mobile */
+    }
+  }

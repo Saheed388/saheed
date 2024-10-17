@@ -1,0 +1,107 @@
+.header-container {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  margin-top: 10px;
+  height: auto; /* Ensure the container has enough height */
+  background-color: #f0f0f0;
+}
+
+.image-container {
+  position: ab; /* Allow positioning of the image inside */
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* Make the container circular */
+  border: 0px solid transparent; /* Initially transparent border */
+  background-clip: padding-box; /* Ensures the border doesn't overlap the image */
+  animation: rotateBorder 6s linear infinite; /* Animation for the border */
+  box-shadow: 0 0 0 10px #606060; /* Initial color to start with */
+}
+
+@keyframes rotateBorder {
+  0% {
+    border-color: #606060; /* Red */
+    box-shadow: 0 0 0 10px #606060;
+  }
+  25% {
+    border-color: #f0f0f0; /* Green */
+    box-shadow: 0 0 0 10px #f0f0f0;
+  }
+  50% {
+    border-color: #f0f0f0; /* Blue */
+    box-shadow: 0 0 0 10px #f0f0f0;
+  }
+  75% {
+    border-color: #c0c0c0; /* Purple */
+    box-shadow: 0 0 0 10px #c0c0c0;
+  }
+  100% {
+    border-color: #a0a0a0; /* Back to red */
+    box-shadow: 0 0 0 10px #a0a0a0;
+  }
+}
+
+.profile-image {
+  width: 300px;
+  height: 300px; /* Ensure the height is the same as width to keep it circular */
+  border-radius: 50%; /* To make the image circular */
+  object-fit: cover; /* Ensures the image covers the container area */
+}
+
+.about-me{
+  margin-left: 80px;
+
+}
+
+.about-me h1 {
+  font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.about-me h3{
+  font-size: 13px;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+
+  body {
+    width: 100%;
+
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  .header-container {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .image-container {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 0 5px #606060; /* Reduce shadow size for mobile */
+  }
+
+  .profile-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-me {
+    margin-left: 0;
+    text-align: center; /* Center align text on mobile */
+    padding: 10px;
+  }
+
+  .about-me h1 {
+    font-size: 40px; /* Reduce font size for mobile */
+  }
+
+  .about-me h3 {
+    font-size: 12px;
+  }
+}
