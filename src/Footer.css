@@ -53,6 +53,7 @@
     .footer {
       height: auto; /* Adjust height to fit content on mobile */
       padding: 0; /* Reduce padding for mobile */
+      margin: 0;
     }
   
     .footer-social-links {
