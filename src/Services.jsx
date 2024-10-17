@@ -6,7 +6,7 @@ const Services = () => {
   const navigate = useNavigate(); // Initialize the navigate function
 
   return (
-    <section className="services-section">
+    <section className="services-section" id='projects'>
       <h2 className="services-heading">Services<span className="dot">.</span></h2>
       <div className="services-container">
         {/* Data Engineering Card */}

@@ -9,7 +9,7 @@ const Navbar = () => {
       </div>
       <ul className="navbar-links">
         <li className="nav-item">
-          <a href="#home" className="nav-link active">Home</a>
+          <a href="/" className="nav-link active">Home</a>
           <div className="underline"></div> {/* Optional underline for active link */}
         </li>
         <li className="nav-item">

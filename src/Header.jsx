@@ -3,7 +3,7 @@ import './App.css'; // Assuming you have a CSS file for this component
 
 function Header() {
   return (
-    <div className="header-container">
+    <div className="header-container" id='about'>
         <div className='image-container'>
             <img src="/nnnnnn.PNG" alt="logo" className="profile-image" />
         </div>
