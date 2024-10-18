@@ -5,6 +5,8 @@
   margin-top: 10px;
   height: auto; /* Ensure the container has enough height */
   background-color: #f0f0f0;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+
 }
 
 .image-container {
@@ -18,7 +20,7 @@
   border: 0px solid transparent; /* Initially transparent border */
   background-clip: padding-box; /* Ensures the border doesn't overlap the image */
   animation: rotateBorder 6s linear infinite; /* Animation for the border */
-  box-shadow: 0 0 0 10px #606060; /* Initial color to start with */
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 @keyframes rotateBorder {
@@ -49,6 +51,8 @@
   height: 300px; /* Ensure the height is the same as width to keep it circular */
   border-radius: 50%; /* To make the image circular */
   object-fit: cover; /* Ensures the image covers the container area */
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+
 }
 
 .about-me{
