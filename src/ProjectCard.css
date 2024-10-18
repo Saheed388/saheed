@@ -1,0 +1,73 @@
+.project-card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-image {
+    width: 100%;  /* Ensures the image fits the width of the card */
+    height: auto;  /* Preserves the image's aspect ratio */
+    object-fit: contain;  /* Ensures no part of the image is cropped */
+  }
+  
+  .project-content {
+    padding: 15px;
+  }
+  
+  .project-content h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+  }
+  
+  .project-content p {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .tools {
+    font-size: 0.8em;
+    color: #999;
+  }
+  
+  .project-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: background-color 0.2s;
+  }
+  
+  .project-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-icon-link {
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5em;  /* Adjust size based on design */
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon-link:hover {
+    color: #007bff;  /* Change color on hover (optional) */
+  }
+  
+  .social-icon {
+    vertical-align: middle;
+  }
+  

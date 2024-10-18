@@ -6,6 +6,7 @@ import Services from './Services';
 import DataEngineeringPage from './DataEngineeringPage'; // Ensure this component exists
 import Web3EngineeringPage from './Web3EngineeringPage'; // Ensure this component exists
 import Footer from './Footer';
+import DataEngineeringData from './DataEngineeringData';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             element={
               <>
                 <DataEngineeringPage /> {/* Only Navbar, DataEngineeringPage, and Footer */}
+                <DataEngineeringData/>
               </>
             }
           />
