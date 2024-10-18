@@ -4,7 +4,7 @@ function Web3EngineeringPage(){
 
     return(
         <div>
-            <p>Hello World</p>
+            <p>Building In Progress</p>
         </div>
     )
 }
