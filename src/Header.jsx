@@ -9,7 +9,7 @@ function Header() {
         </div>
         <div className='about-me'>
             <h1>Jimoh <br/>Saheed Tunde</h1>
-            <h2>Data and Analytics Engineer | Web3 Full-Stack Engineer </h2>
+            <h2>Data and Analytics Engineer | Java Backend Engineer </h2>
             <h3>
             Experienced Data Engineer with expertise in advanced data engineering techniques,<br/> 
             Web3 development, and collaborative problem-solving.<br/>

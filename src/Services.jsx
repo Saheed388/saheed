@@ -29,8 +29,9 @@ const Services = () => {
           <div className="icon-container">
             <img src="/web3icon.jpg" alt="Web3" className="service-icon" />
           </div>
-          <h3>Web3 Full-Stack Engineer</h3>
-          <p>Efficiently developing decentralized applications (dApps) by integrating front-end and back-end technologies, creating scalable architectures that enhance user experience.</p>
+          <h3>Java Backend Engineer</h3>
+          <p>Designing and optimizing robust backend systems, ensuring high-performance APIs, scalable architectures, and seamless database integration for efficient application development.</p>
+
           <button 
             className="navigate-button" 
             onClick={() => navigate('/web3-engineering')}
