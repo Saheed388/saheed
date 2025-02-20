@@ -11,11 +11,15 @@ function Header() {
             <h1>Jimoh <br/>Saheed Tunde</h1>
             <h2>Data and Analytics Engineer | Java Backend Engineer </h2>
             <h3>
-            Experienced Data Engineer with expertise in advanced data engineering techniques,<br/> 
-            Web3 development, and collaborative problem-solving.<br/>
-             Rooted in economics and building innovative data and<br/>
-              analytics platforms, I am passionate about creating impactful solutions in both the data and <br/>
-              blockchain spaces.
+            Experienced Data and Analytics Engineer and Java Backend Developer with expertise <br/>
+            in building scalable backend systems and efficient data pipelines.<br/> 
+            Skilled in advanced data engineering techniques, backend architecture,<br/>
+            and collaborative problem-solving.<br/>
+            With a strong foundation in economics, I specialize in developing high-performance APIs,<br/>
+            optimizing databases, and creating data-driven solutions for modern applications.
+
+
+
             </h3>
         </div>
     </div>
