@@ -57,7 +57,9 @@ function DataEngineeringData() {
       title: "🚀 VendEase Real-Time StreamingData Pipeline",
       description: "💡 The Real-Time Data Pipeline project is a robust and sophisticated system designed to extract, transform, validate, analyze, and store data from multiple sources. The pipeline ensures that other data teams have real-time access to clean and structured data for analysis, predictions, and model development ",
       image: "/VendeaseDataPipeline.gif",
-      tools: "Kafka, Bigquery, Jupyter, Looker, and Docker"
+      tools: "Kafka, Bigquery, Jupyter, Looker, and Docker",
+      github: "https://github.com/Saheed388/VendEaseInterviewProject/tree/main ",
+
     },
 
 
