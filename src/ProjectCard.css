@@ -25,6 +25,7 @@
   .project-content h3 {
     margin-top: 0;
     font-size: 1.2em;
+    color:  #3b82f6;
   }
   
   .project-content p {
@@ -34,7 +35,11 @@
   
   .tools {
     font-size: 0.8em;
-    color: #999;
+    color: #e6399b;
+  }
+
+  .tools span{
+    color: #ff9800;
   }
   
   .project-link {
