@@ -74,6 +74,9 @@ function DataEngineeringPage() {
           <li className="icon-item">
             <img src="/rissing wave.png" alt="RisingWave" /> RisingWave
           </li>
+          <li className="icon-item">
+            <img src="/java22.jpg" alt="Java" /> Java
+          </li>
         </ul>
       </div>
     </div>
