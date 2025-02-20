@@ -20,38 +20,41 @@
   border: 0px solid transparent; /* Initially transparent border */
   background-clip: padding-box; /* Ensures the border doesn't overlap the image */
   animation: rotateBorder 6s linear infinite; /* Animation for the border */
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 20px #3b82f6;
 }
 
 @keyframes rotateBorder {
   0% {
-    border-color: #606060; /* Red */
-    box-shadow: 0 0 0 10px #606060;
+    border-color:  #3b82f6; /* Red */
+    box-shadow: 0 0 0 10px  #e6399b;
   }
   25% {
-    border-color: #f0f0f0; /* Green */
-    box-shadow: 0 0 0 10px #f0f0f0;
+    border-color: #e6399b; /* Green */
+    box-shadow: 0 0 0 10px  #e6399b;
   }
   50% {
     border-color: #f0f0f0; /* Blue */
     box-shadow: 0 0 0 10px #f0f0f0;
   }
   75% {
-    border-color: #c0c0c0; /* Purple */
-    box-shadow: 0 0 0 10px #c0c0c0;
+    border-color:  #e6399b; /* Purple */
+    box-shadow: 0 0 0 10px  #e6399b;
   }
   100% {
-    border-color: #a0a0a0; /* Back to red */
-    box-shadow: 0 0 0 10px #a0a0a0;
+    border-color:  #e6399b; /* Back to red */
+    box-shadow: 0 0 0 10px  #e6399b;
   }
 }
+
+/* background: linear-gradient(135deg, #3b82f6, #e6399b, #ff9800); */
+
 
 .profile-image {
   width: 300px;
   height: 300px; /* Ensure the height is the same as width to keep it circular */
   border-radius: 50%; /* To make the image circular */
   object-fit: cover; /* Ensures the image covers the container area */
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 20px #3b82f6;
 
 }
 
@@ -63,7 +66,18 @@
 .about-me h1 {
   font-size: 60px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #3b82f6;
 }
+
+ .about-me h2 {
+  color: #e6399b;
+}
+
+.about-me span{
+  color: #ff9800;
+font-style: bold;
+}
+
 
 .about-me h3{
   font-size: 20px;
@@ -89,7 +103,7 @@
   .image-container {
     width: 200px;
     height: 200px;
-    box-shadow: 0 0 0 5px #606060; /* Reduce shadow size for mobile */
+    box-shadow: 0 0 0 5px #3b82f6; /* Reduce shadow size for mobile */
   }
 
   .profile-image {

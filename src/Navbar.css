@@ -1,13 +1,13 @@
 /* General styling for the navbar */
 body {
-    background-color: white;
+    background:#FFB6E5;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
 }
 
 .navbar {
-    background-color: #f0f0f0;
+    background: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +32,7 @@ body {
 }
 
 .nav-link {
-    color: black;
+    color: #3b82f6;
     text-decoration: none;
     position: relative;
     font-size: 18px;
@@ -46,7 +46,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #000;
+    background: linear-gradient(135deg, #3b82f6, #e6399b, #ff9800);
     transition: width 0.3s ease;
     transform-origin: bottom right;
 }
@@ -63,23 +63,24 @@ body {
 
 .contact-btn, .resume-btn {
     padding: 20px 40px;
-    background-color: #000;
+    background: linear-gradient(135deg, #3b82f6, #e6399b, #ff9800);
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 20px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background 0.3s ease, color 0.3s ease;
     margin-right: 10px;
+    position: relative;
+    overflow: hidden;
 }
 
+/* Make the background disappear on hover */
 .contact-btn:hover, .resume-btn:hover {
-    background-color: white; /* Change background to white on hover */
-    color: black; /* Change text color to black on hover */
+    background: transparent; /* Make background transparent */
+    color: #3b82f6; /* Change text color to black on hover */
+    border: 2px solid    #e6399b; /* Optional: Add a border for better visibility */
 }
 
-.theme-toggle {
-    margin-left: 15px;
-}
 
 /* Media query for mobile devices */
 @media (max-width: 600px) {
