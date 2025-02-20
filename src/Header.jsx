@@ -11,7 +11,7 @@ function Header() {
             <h1>Jimoh <br/>Saheed Tunde</h1>
             <h2>Data and Analytics Engineer | Java Backend Engineer </h2>
             <h3>
-            Experienced Data and Analytics Engineer and Java Backend Developer with expertise <br/>
+            Experienced Data and Analytics Engineer and Java Backend Developer with <br/>expertise 
             in building scalable backend systems and efficient data pipelines.<br/> 
             Skilled in advanced data engineering techniques, backend architecture,<br/>
             and collaborative problem-solving.<br/>
