@@ -13,11 +13,12 @@
     font-weight: bold;
     margin-bottom: 40px;
     position: relative;
+    color: #3b82f6;
 
 }
 
 .services-heading .dot {
-    color: #606060; /* Highlight color for the dot */
+    color: #ff9800; /* Highlight color for the dot */
 }
 
 .services-container {
@@ -66,14 +67,14 @@
     padding: 10px;
     display: inline-block;
     margin-bottom: 20px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 20px rgba(171, 161, 161, 0.5);
 
 }
 
 .service-icon {
     width: 60px;
     height: 60px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 20px #e6399b;
 
 }
 
@@ -81,6 +82,7 @@
     font-size: 1.2rem;
     font-weight: bold;
     margin: 10px 0;
+    color: #e6399b;
 }
 
 .service-card p {

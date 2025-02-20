@@ -7,7 +7,7 @@ const Services = () => {
 
   return (
     <section className="services-section" id='projects'>
-      <h2 className="services-heading">Services<span className="dot">.</span></h2>
+      <h2 className="services-heading">Services <span className="dot">....</span></h2>
       <div className="services-container">
         {/* Data Engineering Card */}
         <div className="service-card">
