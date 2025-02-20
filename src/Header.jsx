@@ -16,7 +16,7 @@ function Header() {
             Skilled in advanced data engineering techniques, backend architecture,<br/>
             and collaborative problem-solving.<br/>
             With a strong foundation in economics, I specialize in developing<br/> high-performance APIs,
-            optimizing databases, and creating data-driven solutions for modern applications.
+            optimizing databases, <br/>and creating data-driven solutions for modern applications.
 
 
 
