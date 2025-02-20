@@ -93,17 +93,17 @@
 .navigate-button {
     border-radius: 5px;
     box-shadow: #555;
-    background-color: white; /* Initial background */
-    color: black; /* Initial text color */
+    background-color: #3b82f6; /* Initial background */
+    color: white; /* Initial text color */
     padding: 10px 20px; /* Add padding */
-    border: 1px solid #000; /* Border to make it stand out */
+    border: 1px solid #e6399b; /* Border to make it stand out */
     transition: all 0.3s ease; /* Smooth transition */
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 20px #3b82f6;
 
 }
 
 .navigate-button:hover {
-    background-color: black; /* Change background color on hover */
+    background-color: #e6399b; /* Change background color on hover */
     color: white; /* Change text color on hover */
 }
 
