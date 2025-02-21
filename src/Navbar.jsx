@@ -24,7 +24,7 @@ const Navbar = () => {
           <a href="mailto:tunwaju@gmail.com" className="nav-link">Contact</a>
         </li>
         <li className="nav-item">
-          <a href="https://drive.google.com/file/d/1VOu5cFR4PqXlXRudjzJmQHkCZvNfyLnK/view?usp=drive_link" 
+          <a href="https://drive.google.com/file/d/1VOu5cFR4PqXlXRudjzJmQHkCZvNfyLnK/view?usp=sharing" 
              target="_blank" 
              rel="noopener noreferrer"
              className="nav-link">
