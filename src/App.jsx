@@ -21,6 +21,7 @@ function App() {
             element={
               <>
                 <Header /> {/* Display header only on the home page */}
+                <DataEngineeringPage />
                 <Services />
               </>
             }
@@ -30,7 +31,7 @@ function App() {
             path="/data-engineering"
             element={
               <>
-                <DataEngineeringPage /> {/* Only Navbar, DataEngineeringPage, and Footer */}
+                 {/* Only Navbar, DataEngineeringPage, and Footer */}
                 <DataEngineeringData/>
               </>
             }
@@ -40,7 +41,6 @@ function App() {
             path="/backend-engineering"
             element={
               <>
-                <DataEngineeringPage  />
                 <SoftwareEngineerData/>
               </>
             }
