@@ -1,6 +1,6 @@
 /* General styling for the navbar */
 body {
-    background:#FFB6E5;
+    background: #FFB6E5;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -13,13 +13,15 @@ body {
     align-items: center;
     padding: 20px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-
+    position: relative;
 }
 
+/* Logo */
 .navbar-logo img {
     width: 100px; /* Adjust size of the logo */
 }
 
+/* Navbar links (desktop) */
 .navbar-links {
     display: flex;
     list-style: none;
@@ -56,13 +58,14 @@ body {
     transform-origin: bottom left;
 }
 
+/* Buttons */
 .navbar-actions {
     display: flex;
     align-items: center;
 }
 
 .contact-btn, .resume-btn {
-    padding: 20px 40px;
+    padding: 15px 30px;
     background: linear-gradient(135deg, #3b82f6, #e6399b, #ff9800);
     color: white;
     border: none;
@@ -74,62 +77,86 @@ body {
     overflow: hidden;
 }
 
-/* Make the background disappear on hover */
 .contact-btn:hover, .resume-btn:hover {
-    background: transparent; /* Make background transparent */
-    color: #3b82f6; /* Change text color to black on hover */
-    border: 2px solid    #e6399b; /* Optional: Add a border for better visibility */
+    background: transparent;
+    color: #3b82f6;
+    border: 2px solid #e6399b;
 }
 
+/* Hamburger menu (mobile) */
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #3b82f6;
+    background: none;
+    border: none;
+}
 
-/* Media query for mobile devices */
-@media (max-width: 600px) {
-    body {
-        width: 100%;
-        overflow-x: hidden;
-        margin: 0;
-        padding: 0;
-    }
-
+/* Mobile styles */
+@media (max-width: 768px) {
     .navbar {
         flex-direction: row;
-        align-items: flex-start;
-        padding: 10px;
+        align-items: center;
+        padding: 15px;
     }
 
     .navbar-logo img {
-        width: 80px; /* Smaller logo on mobile */
+        width: 80px;
     }
 
+    /* Hide desktop links */
     .navbar-links {
-        flex-direction: column;
-        align-items: flex-start;
+        position: absolute;
+        top: 60px;
+        left: 0;
         width: 100%;
+        background: white;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transform: translateY(-100%);
+        transition: transform 0.4s ease-in-out;
+        z-index: 100;
+    }
+
+    /* When menu is active */
+    .navbar-links.active {
+        transform: translateY(0);
     }
 
     .nav-item {
-        margin: 10px 0; /* Add vertical spacing between nav items */
+        margin: 15px 0;
     }
 
     .nav-link {
-        font-size: 16px; /* Slightly smaller font size on mobile */
+        font-size: 16px;
         padding-bottom: 2px;
     }
 
-    .contact-btn, .resume-btn {
-        padding: 15px 30px;
-        font-size: 14px; /* Smaller buttons for mobile */
-        margin-bottom: 10px;
-        width: 100px; /* Full-width buttons on mobile */
+    /* Show hamburger icon */
+    .hamburger {
+        display: block;
     }
 
+    /* Hide buttons by default */
     .navbar-actions {
-        flex-direction: column;
-        align-items: flex-start;
-        width: 100%;
+        display: none;
     }
 
-    .theme-toggle {
-        margin-left: 0; /* Align theme toggle to the left on mobile */
+    /* Show buttons when menu is active */
+    .navbar-links.active + .navbar-actions {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .contact-btn, .resume-btn {
+        padding: 12px 25px;
+        font-size: 14px;
+        width: 80%;
+        margin-top: 10px;
     }
 }

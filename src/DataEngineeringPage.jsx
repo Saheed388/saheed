@@ -66,7 +66,7 @@ function DataEngineeringPage() {
             <img src="/terraform.png" alt="Terraform" /> Terraform
           </li>
           <li className="icon-item">
-            <img src="/Apache_kafka.svg.png" alt="Apache Spark" /> Apache Spark
+            <img src="/spark.png" alt="Apache Spark" /> Apache Spark
           </li>
           <li className="icon-item">
             <img src="/linux.jpeg" alt="Linux" /> Linux
