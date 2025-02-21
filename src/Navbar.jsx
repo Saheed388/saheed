@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
 import './Navbar.css'; // Import the styling file
-import { FaBars, FaTimes } from 'react-icons/fa'; // FontAwesome Icons
+import { Menu, X } from '@mui/icons-material'; // MUI icons for hamburger menu
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
 
   return (
     <nav className="navbar">
@@ -11,31 +15,38 @@ const Navbar = () => {
         <img src="/logo-removebg-preview.png" alt="logo" className="logo-image" />
       </div>
 
-      {/* Hamburger Menu for Mobile */}
-      <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
-        {menuOpen ? <FaTimes /> : <FaBars />}
-      </div>
-
-      {/* Navigation Links */}
-      <ul className={`navbar-links ${menuOpen ? "active" : ""}`}>
+      {/* Desktop Links */}
+      <ul className="navbar-links">
         <li className="nav-item">
           <a href="/" className="nav-link active">Home</a>
         </li>
         <li className="nav-item">
-          <a href="#about" className="nav-link">About Me</a>
+          <a href="mailto:tunwaju@gmail.com" className="nav-link">Contact</a>
         </li>
         <li className="nav-item">
-          <a href="#projects" className="nav-link">Projects</a>
+          <a href="https://drive.google.com/file/d/1VOu5cFR4PqXlXRudjzJmQHkCZvNfyLnK/view?usp=drive_link" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             className="nav-link">
+             Resume
+          </a>
         </li>
       </ul>
 
-      {/* Navbar Actions */}
-      <div className="navbar-actions">
-        <a href="mailto:tunwaju@gmail.com">
-          <button className="contact-btn">Contact</button>
-        </a>
-        <a href="https://drive.google.com/file/d/1VOu5cFR4PqXlXRudjzJmQHkCZvNfyLnK/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-          <button className="resume-btn">Resume</button>
+      {/* Mobile Menu Button */}
+      <div className="hamburger-menu" onClick={toggleMenu}>
+        {menuOpen ? <X className="menu-icon" /> : <Menu className="menu-icon" />}
+      </div>
+
+      {/* Mobile Dropdown Menu */}
+      <div className={`mobile-menu ${menuOpen ? "open" : ""}`}>
+        <a href="/" className="mobile-link">Home</a>
+        <a href="mailto:tunwaju@gmail.com" className="mobile-link">Contact</a>
+        <a href="https://drive.google.com/file/d/1VOu5cFR4PqXlXRudjzJmQHkCZvNfyLnK/view?usp=drive_link" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           className="mobile-link">
+           Resume
         </a>
       </div>
     </nav>

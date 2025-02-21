@@ -16,12 +16,10 @@ body {
     position: relative;
 }
 
-/* Logo */
 .navbar-logo img {
-    width: 100px; /* Adjust size of the logo */
+    width: 100px;
 }
 
-/* Navbar links (desktop) */
 .navbar-links {
     display: flex;
     list-style: none;
@@ -36,11 +34,12 @@ body {
 .nav-link {
     color: #3b82f6;
     text-decoration: none;
-    position: relative;
     font-size: 18px;
     padding-bottom: 5px;
+    position: relative;
 }
 
+/* Hover effect for nav links */
 .nav-link::after {
     content: '';
     position: absolute;
@@ -50,113 +49,62 @@ body {
     height: 2px;
     background: linear-gradient(135deg, #3b82f6, #e6399b, #ff9800);
     transition: width 0.3s ease;
-    transform-origin: bottom right;
 }
 
 .nav-link:hover::after {
     width: 100%;
-    transform-origin: bottom left;
 }
 
-/* Buttons */
-.navbar-actions {
-    display: flex;
-    align-items: center;
-}
-
-.contact-btn, .resume-btn {
-    padding: 15px 30px;
-    background: linear-gradient(135deg, #3b82f6, #e6399b, #ff9800);
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 20px;
-    transition: background 0.3s ease, color 0.3s ease;
-    margin-right: 10px;
-    position: relative;
-    overflow: hidden;
-}
-
-.contact-btn:hover, .resume-btn:hover {
-    background: transparent;
-    color: #3b82f6;
-    border: 2px solid #e6399b;
-}
-
-/* Hamburger menu (mobile) */
-.hamburger {
+/* HAMBURGER MENU FOR MOBILE */
+.hamburger-menu {
     display: none;
-    font-size: 30px;
     cursor: pointer;
-    color: #3b82f6;
-    background: none;
-    border: none;
 }
 
-/* Mobile styles */
+.menu-icon {
+    font-size: 35px;
+    color: #3b82f6;
+}
+
+/* MOBILE MENU */
+.mobile-menu {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    display: none;
+    flex-direction: column;
+    width: 200px;
+}
+
+.mobile-menu.open {
+    display: flex;
+}
+
+.mobile-link {
+    padding: 15px;
+    text-align: center;
+    color: #3b82f6;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.mobile-link:hover {
+    background: #e6399b;
+    color: white;
+}
+
+/* HIDE DESKTOP LINKS ON MOBILE */
 @media (max-width: 768px) {
-    .navbar {
-        flex-direction: row;
-        align-items: center;
-        padding: 15px;
-    }
-
-    .navbar-logo img {
-        width: 80px;
-    }
-
-    /* Hide desktop links */
     .navbar-links {
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        background: white;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px 0;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        transform: translateY(-100%);
-        transition: transform 0.4s ease-in-out;
-        z-index: 100;
-    }
-
-    /* When menu is active */
-    .navbar-links.active {
-        transform: translateY(0);
-    }
-
-    .nav-item {
-        margin: 15px 0;
-    }
-
-    .nav-link {
-        font-size: 16px;
-        padding-bottom: 2px;
-    }
-
-    /* Show hamburger icon */
-    .hamburger {
-        display: block;
-    }
-
-    /* Hide buttons by default */
-    .navbar-actions {
         display: none;
     }
 
-    /* Show buttons when menu is active */
-    .navbar-links.active + .navbar-actions {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-    }
-
-    .contact-btn, .resume-btn {
-        padding: 12px 25px;
-        font-size: 14px;
-        width: 80%;
-        margin-top: 10px;
+    .hamburger-menu {
+        display: block;
     }
 }
