@@ -2,7 +2,7 @@
 .data-engineering-page {
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(135deg, #3b82f6, #e6399b, #ff9800);
-  color: #fff; /* Light text */
+  color: #3b82f6; /* Light text */
   /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
@@ -17,6 +17,7 @@
   font-size: 1.8rem;
   font-weight: bold;
   border-right: 3px solid #ffcc00;
+  color: #ffcc00;
   width: fit-content;
   white-space: nowrap;
   overflow: hidden;
@@ -52,7 +53,7 @@
 
 /* Individual icon items */
 .icon-item {
-  background: #3b82f6;
+  background: #f0cfe1;
   border-radius: 10px;
   padding: 12px;
   text-align: center;
