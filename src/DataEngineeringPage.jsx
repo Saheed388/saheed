@@ -77,6 +77,18 @@ function DataEngineeringPage() {
           <li className="icon-item">
             <img src="/java22.jpg" alt="Java" /> Java
           </li>
+          <li className="icon-item">
+            <img src="/spring boot.png" alt="SpringBoot" /> Spring Boot
+          </li>
+          <li className="icon-item">
+            <img src="/docker-icon.png" alt="Docker" /> Docker
+          </li>
+          <li className="icon-item">
+            <img src="/postman.png" alt="Postman" /> Postman
+          </li>
+          
+          
+
         </ul>
       </div>
     </div>
