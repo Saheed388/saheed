@@ -34,7 +34,7 @@ const Services = () => {
 
           <button 
             className="navigate-button" 
-            onClick={() => navigate('/web3-engineering')}
+            onClick={() => navigate('/backend-engineering')}
           >
             View Projects
           </button> {/* Button to navigate to Web3 Engineering page */}

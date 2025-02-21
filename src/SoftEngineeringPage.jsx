@@ -1,6 +1,6 @@
 import React from "react";
 
-function Web3EngineeringPage(){
+function SoftEngineeringPage(){
 
     return(
         <div>
@@ -9,4 +9,4 @@ function Web3EngineeringPage(){
     )
 }
 
-export default Web3EngineeringPage;
+export default SoftEngineeringPage;

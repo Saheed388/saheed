@@ -46,14 +46,6 @@ function DataEngineeringData() {
       tools: "Python, PostgreSql, Pgadmin, MySQL, PhpMyAdmin, Docker, and Mage"
     },
     {
-      title: "Spotify Music Data Pipeline",
-      description: "💡  I demonstrate the use of Mage to extract data from an API, which is then stored in both PostgresSQL and MySQL databases. I opted for this dual database approach to provide a comprehensive overview in a single video.",
-      github: "https://github.com/your-repo-healthhttps://github.com/Saheed388/3rd_semester_capstone_project ",
-      linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7089249455111122946/?originTrackingId=Pkc8cADdSFO%2Ft7r1RcH1hg%3D%3D",
-      image: "/apotifyProject.gif",
-      tools: "Python, PostgreSql, Pgadmin, MySQL, PhpMyAdmin, Docker, and Mage"
-    },
-    {
       title: "VendEase Real-Time StreamingData Pipeline",
       description: "💡 The Real-Time Data Pipeline project is a robust and sophisticated system designed to extract, transform, validate, analyze, and store data from multiple sources. The pipeline ensures that other data teams have real-time access to clean and structured data for analysis, predictions, and model development ",
       image: "/VendeaseDataPipeline.gif",

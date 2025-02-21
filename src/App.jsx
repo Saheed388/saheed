@@ -4,9 +4,10 @@ import Navbar from './Navbar';
 import Header from './Header';
 import Services from './Services';
 import DataEngineeringPage from './DataEngineeringPage'; // Ensure this component exists
-import Web3EngineeringPage from './Web3EngineeringPage'; // Ensure this component exists
+import SoftEngineeringPage from './SoftEngineeringPage'; // Ensure this component exists
 import Footer from './Footer';
 import DataEngineeringData from './DataEngineeringData';
+import SoftwareEngineerData from './SoftwareDngineerData';
 
 function App() {
   return (
@@ -36,10 +37,11 @@ function App() {
           />
           {/* Route for Web3 Engineering, without Header */}
           <Route
-            path="/web3-engineering"
+            path="/backend-engineering"
             element={
               <>
-                <Web3EngineeringPage />
+                <DataEngineeringPage  />
+                <SoftwareEngineerData/>
               </>
             }
           />
