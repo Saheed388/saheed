@@ -7,7 +7,7 @@ function DataEngineeringData() {
     {
       title: "Cryptocurrency Data Pipeline!",
       description: " 💡 This project seamlessly blends real-time data pipelines with batch processing, opening doors to a wealth of insights in the world of cryptocurrency.",
-      github: " https://github.com/Tunde338/zoomcamp ",  // GitHub repo link
+      github: " https://github.com/Tunde338/zoomcamp/tree/zoomcamp",  // GitHub repo link
       linkedin: "https://www.linkedin.com/in/jimoh-saheed-5480b820b/recent-activity/images/",  // LinkedIn profile
       image: "/animationCorrectGold.gif",
       tools: "Google Cloud, Kafka, Docker, Terraform, Mage.io, DBT , and Google Studio."
