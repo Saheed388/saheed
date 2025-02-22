@@ -87,10 +87,7 @@ function DataEngineeringPage() {
           <li className="icon-item">
             <img src="/rissing wave.png" alt="RisingWave" /> RisingWave
           </li>
-          
-          <li className="icon-item">
-            <img src="/spring boot.png" alt="SpringBoot" /> Spring Boot
-          </li>
+        
           <li className="icon-item">
             <img src="/psql.png" alt="PostgresSQL" /> PSQL
           </li>

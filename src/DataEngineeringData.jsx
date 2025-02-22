@@ -15,10 +15,10 @@ function DataEngineeringData() {
     {
       title: "Youtube Data Pipeline",
       description: "💡 Aspired to extract valuable insights pertaining to optimal strategies for channel initiation, audience attraction, and subscriber acquisition on the YouTube platform.",
-      github: "https://github.com/your-repo-healthhttps://github.com/Saheed388/3rd_semester_capstone_project ",
+      github: "https://github.com/Saheed388/capstone_submit",
       linkedin: "https://www.linkedin.com/in/jimoh-saheed-5480b820b/recent-activity/images/",  // LinkedIn profile
       image: "/youtubetifyProject.gif",
-      tools: "Python, PostgreSql, Google Cloud, Docker, Airflow, DBT, and PowerBI"
+      tools: "Python, PostgreSql, Google Cloud, Docker, Airflow, DBT, and PowerBI."
     },
     {
       title: "World Bank Data Pipeline",
@@ -26,30 +26,30 @@ function DataEngineeringData() {
       github: "https://github.com/Saheed388/Africa_dgp_project",
       linkedin: "https://www.linkedin.com/in/jimoh-saheed-5480b820b/recent-activity/images/",
       image: "/gdp-place.png",
-      tools: "Azure DataFactory, Gen2 Storage, Azure Databricks, Azure SQL Database, and PowerBI"
+      tools: "Azure DataFactory, Gen2 Storage, Azure Databricks, Azure SQL Database, and PowerBI."
     },
     {
       title: "USA Eviction Data Pipeline",
       description: "💡  I demonstrate the use of Mage to extract data from an API, which is then stored in both PostgresSQL and MySQL databases. I opted for this dual database approach to provide a comprehensive overview in a single video.",
-      github: "https://github.com/your-repo-healthhttps://github.com/Saheed388/3rd_semester_capstone_project ",
+      github: "https://github.com/Saheed388/youtube-video-project",
       linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7136500225791115264/?originTrackingId=EfLfbp9BS6uAXLUvEps3Ew%3D%3D",
       image: "/mageToMysqAndPsql.png",
-      tools: "Python, PostgreSql, Pgadmin, MySQL, PhpMyAdmin, Docker, and Mage"
+      tools: "Python, PostgreSql, Pgadmin, MySQL, PhpMyAdmin, Docker, and Mage."
     },
 
     {
       title: "Spotify Music Data Pipeline",
       description: "💡  I demonstrate the use of Mage to extract data from an API, which is then stored in both PostgresSQL and MySQL databases. I opted for this dual database approach to provide a comprehensive overview in a single video.",
-      github: "https://github.com/your-repo-healthhttps://github.com/Saheed388/3rd_semester_capstone_project ",
+      github: "https://github.com/Saheed388/Spotfy_Kafka_live_streaming_project ",
       linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7089249455111122946/?originTrackingId=Pkc8cADdSFO%2Ft7r1RcH1hg%3D%3D",
       image: "/apotifyProject.gif",
-      tools: "Python, PostgreSql, Pgadmin, MySQL, PhpMyAdmin, Docker, and Mage"
+      tools: "Python, PostgreSql, Pgadmin, MySQL, PhpMyAdmin, Docker, and Mage."
     },
     {
       title: "VendEase Real-Time StreamingData Pipeline",
       description: "💡 The Real-Time Data Pipeline project is a robust and sophisticated system designed to extract, transform, validate, analyze, and store data from multiple sources. The pipeline ensures that other data teams have real-time access to clean and structured data for analysis, predictions, and model development ",
       image: "/VendeaseDataPipeline.gif",
-      tools: "Kafka, Bigquery, Jupyter, Looker, and Docker",
+      tools: "Kafka, Bigquery, Jupyter, Looker, and Docker.",
       github: "https://github.com/Saheed388/VendEaseInterviewProject/tree/main ",
 
     },
