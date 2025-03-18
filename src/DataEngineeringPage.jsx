@@ -94,6 +94,10 @@ function DataEngineeringPage() {
           <li className="icon-item">
             <img src="/postman.png" alt="Postman" /> Postman
           </li>
+
+          <li className="icon-item">
+            <img src="/flink.png" alt="Postman" /> Apache Flinks
+          </li>
           
           
 
