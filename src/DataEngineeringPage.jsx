@@ -96,7 +96,11 @@ function DataEngineeringPage() {
           </li>
 
           <li className="icon-item">
-            <img src="/flink.png" alt="Postman" /> Apache Flinks
+            <img src="/flink.png" alt="ApacheFlinks" /> Apache Flinks
+          </li>
+
+          <li className="icon-item">
+            <img src="/cassandra-pngrepo-com.png" alt="Cassandra" /> Cassandra
           </li>
           
           
