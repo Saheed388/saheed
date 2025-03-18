@@ -56,7 +56,7 @@ function DataEngineeringData() {
     {
       "title": "Bank Transaction Real-Time Streaming and Batch Data Pipeline",
       "description": "💡 This Real-Time Data Pipeline is a powerful system designed for efficient extraction, transformation, validation, analysis, and storage of data from multiple sources. It ensures that data teams have seamless real-time access to clean, structured data for analytics, predictive modeling, and decision-making.",
-      "image": "/VendeaseDataPipeline.gif",
+      "image": "/transactional_architecture.gif",
       "tools": "Kafka, Apache Flink, PostgreSQL, Cassandra, Spark, Airflow, Python, Power BI, and Docker.",
       "github": "https://github.com/Saheed388/VendEaseInterviewProject/tree/main"
     },
