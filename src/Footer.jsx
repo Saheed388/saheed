@@ -12,7 +12,7 @@ const Footer = () => {
         <p> Copyright &copy; {currentYear} Jimoh Saheed Tunde. All rights reserved.</p>
         <ul className="footer-social-links">
           <li>
-            <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/001_JSaeed" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faTwitter} className="social-icon" />
             </a>
           </li>
