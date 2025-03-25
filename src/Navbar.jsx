@@ -24,7 +24,7 @@ const Navbar = () => {
           <a href="mailto:tunwaju@gmail.com" className="nav-link">Contact</a>
         </li>
         <li className="nav-item">
-          <a href="https://drive.google.com/file/d/1VOu5cFR4PqXlXRudjzJmQHkCZvNfyLnK/view?usp=sharing" 
+          <a href="https://drive.google.com/file/d/1A9SHkmp3TC8mdG6MIMjAG-tiX0N-aHch/view?usp=sharing" 
              target="_blank" 
              rel="noopener noreferrer"
              className="nav-link">
@@ -42,7 +42,7 @@ const Navbar = () => {
       <div className={`mobile-menu ${menuOpen ? "open" : ""}`}>
         <a href="/" className="mobile-link">Home</a>
         <a href="mailto:tunwaju@gmail.com" className="mobile-link">Contact</a>
-        <a href="https://drive.google.com/file/d/1VOu5cFR4PqXlXRudjzJmQHkCZvNfyLnK/view?usp=drive_link" 
+        <a href="https://drive.google.com/file/d/1A9SHkmp3TC8mdG6MIMjAG-tiX0N-aHch/view?usp=sharing" 
            target="_blank" 
            rel="noopener noreferrer" 
            className="mobile-link">
