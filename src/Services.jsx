@@ -29,7 +29,7 @@ const Services = () => {
           <div className="icon-container">
             <img src="/web3icon.jpg" alt="Web3" className="service-icon" />
           </div>
-          <h3>Java Backend Engineer</h3>
+          <h3> Software Engineer</h3>
           <p>Designing and optimizing robust backend systems, ensuring high-performance APIs, scalable architectures, and seamless database integration for efficient application development.</p>
 
           <button 
