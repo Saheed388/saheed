@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src="/logo-removebg-preview.png" alt="logo" className="logo-image" />
+        <img src="/logo.png" alt="logo" className="logo-image" />
       </div>
 
       {/* Desktop Links */}

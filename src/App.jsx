@@ -8,6 +8,7 @@ import SoftEngineeringPage from './SoftEngineeringPage'; // Ensure this componen
 import Footer from './Footer';
 import DataEngineeringData from './DataEngineeringData';
 import SoftwareEngineerData from './SoftwareDngineerData';
+import Certificates from './Certificate';
 
 function App() {
   return (

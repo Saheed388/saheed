@@ -20,7 +20,15 @@ function SoftwareEngineerData() {
       postman: "https://documenter.getpostman.com/view/36540246/2sAYdZsYrk", // Replace with actual Postman link
       image: "/fittnes.jpeg",
       tools: "Java, SQL, Spring Boot, Docker, H2 database, JWT, Lombok, Spring Security, Postman, Render."
-    }
+    },
+    {
+      title: "Mediquest AI ",
+      description: "💡 This project aims to empower Nigerians with AI-driven healthcare insights by leveraging public health facility data from health.gov.ng. The goal is to help citizens choose the right healthcare facility with confidence.",
+      github: "https://github.com/Saheed388/mediquest_project_full_code/tree/main",
+      fastApi: "https://documenter.getpostman.com/view/36540246/2sAYdZsYrk", // Replace with actual Postman link
+      image: "/nigerian-doctor.jpg",
+      tools: "Python, FastAPI, Groq, Docker, LLM, React js, RAG, Qdrant Vector Database"
+    },
   ];
 
   return (
