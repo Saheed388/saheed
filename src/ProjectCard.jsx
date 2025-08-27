@@ -12,6 +12,7 @@ function ProjectCard({ project }) {
         <h3>{project.title}</h3>
         <p>{project.description}</p>
         <small className="tools"><span>Tools:</span> {project.tools}</small>
+        
 
         <div className="social-links">
           {/* GitHub Icon */}
