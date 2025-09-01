@@ -55,12 +55,20 @@ function DataEngineeringData() {
     },
     {
       "title": "Bank Transaction Real-Time Streaming and Batch Data Pipeline",
-      "description": "💡 This Real-Time Data Pipeline is a powerful system designed for efficient extraction, transformation, validation, analysis, and storage of data from multiple sources. It ensures that data teams have seamless real-time access to clean, structured data for analytics, predictive modeling, and decision-making.",
+      "description": "💡 This Real-Time and Batch Data Pipeline is a powerful system designed for efficient extraction, transformation, validation, analysis, and storage of data from multiple sources. It ensures that data teams have seamless real-time access to clean, structured data for analytics, predictive modeling, and decision-making.",
       "image": "/transactional_architecture.gif",
       "tools": "Kafka, Apache Flink, PostgreSQL, Cassandra, Spark, Airflow, Python, Power BI, and Docker.",
-      "github": "https://github.com/Saheed388/VendEaseInterviewProject/tree/main"
+      "github": "https://github.com/Saheed388/Transactions-end-to-end-project/tree/main"
     },
     
+    {
+        title: "Mediquest AI ",
+        description: "💡 This project aims to empower Nigerians with AI-driven healthcare insights by leveraging public health facility data from health.gov.ng. The goal is to help citizens choose the right healthcare facility with confidence.",
+        github: "https://github.com/Saheed388/mediquest_project_full_code/tree/main",
+        postman: "https://saheedmediquest.vercel.app/", // Replace with actual Postman link
+        image: "/nigerian-doctor.jpg",
+        tools: "Python, FastAPI, Groq, Docker, LLM, React js, RAG, Qdrant Vector Database"
+      },
 
 
   ];
